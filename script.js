@@ -14,7 +14,6 @@ const lightOn = {
 };
 
 const nextIndex = () => (colorIndex = colorIndex < 2 ? ++colorIndex : 0);
-
 const changeSignal = () => {
   lightOn["reset"]();
   const colors = ["red", "yellow", "green"];
