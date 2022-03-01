@@ -1,3 +1,5 @@
 ## SEMÁFORO - HTML CSS AND JS.
 
-*This app is made for learning pourposes.* **That's it!**
+_This app is made for learning pourposes._ **That's it!**
+
+![alt text](img/img.gif)
