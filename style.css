@@ -12,11 +12,9 @@ body  {
   place-items: center;
 }
   
-.container{
+.container {
   display: grid;
   place-items: center;
-  #background-color: rgba(0, 255, 255, 0.24);
-    
 }    
 
 
@@ -65,15 +63,15 @@ body  {
     box-shadow: 0 0 10px 1px #00000093;
 }
 
-.red {
+#red {
     background-color: red;
     box-shadow: 0 0 10px 1px rgb(224, 36, 36);
 }
-.yellow {
+#yellow {
     background-color: rgb(229, 255, 0);
     box-shadow: 0 0 10px 1px rgb(224, 221, 36);
 }
-.green {
+#green {
     background-color: rgb(33, 197, 18);
     box-shadow: 0 0 10px 1px rgb(52, 224, 36);
 }
