@@ -1,77 +1,76 @@
 * {
-    box-sizing: border-box;    
+  box-sizing: border-box;
 }
 
-
-body  { 
-  
-  background: linear-gradient(45deg,rgba(199, 64, 64, 0.555) ,rgb(71, 71, 219)); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+body {
+  background: linear-gradient(
+    45deg,
+    rgba(199, 64, 64, 0.555),
+    rgb(71, 71, 219)
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   min-height: 100vh;
   width: 100%;
   display: grid;
   place-items: center;
 }
-  
+
 .container {
   display: grid;
   place-items: center;
-}    
-
+}
 
 .semaforo {
-
-    display: grid;
-    place-items: center;
-    background-color: #3b3b3b;
-    height: 200px;
-    width: 90px;
-    border-radius: 10px;
-    padding: 10px;
-} 
+  display: grid;
+  place-items: center;
+  background-color: #3b3b3b;
+  height: 200px;
+  width: 90px;
+  border-radius: 10px;
+  padding: 10px;
+}
 
 .sinal {
-    display: block;
-    position: relative;
-    background-color: rgba(26, 26, 26, 0.849);
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
+  display: block;
+  position: relative;
+  background-color: rgba(26, 26, 26, 0.849);
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
 }
 
 .sinal::after {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
-    border-right: 4px solid  rgba(250, 235, 215, 0.63);
-    top: 9%;
-    right: 0;
-    
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border-right: 4px solid rgba(250, 235, 215, 0.63);
+  top: 9%;
+  right: 0;
 }
 
-.haste{
-    width: 5px;
-    height: 280px;
-    background-color: black;
+.haste {
+  width: 5px;
+  height: 280px;
+  background-color: black;
 }
 
-.solo{
-    width: 320px;
-    height: 1px;
-    background-color: #0e0e0e63;
-    box-shadow: 0 0 10px 1px #00000093;
+.solo {
+  width: 320px;
+  height: 1px;
+  background-color: #0e0e0e63;
+  box-shadow: 0 0 10px 1px #00000093;
 }
 
 #red {
-    background-color: red;
-    box-shadow: 0 0 10px 1px rgb(224, 36, 36);
+  background-color: red;
+  box-shadow: 0 0 10px 1px rgb(224, 36, 36);
 }
 #yellow {
-    background-color: rgb(229, 255, 0);
-    box-shadow: 0 0 10px 1px rgb(224, 221, 36);
+  background-color: rgb(229, 255, 0);
+  box-shadow: 0 0 10px 1px rgb(224, 221, 36);
 }
 #green {
-    background-color: rgb(33, 197, 18);
-    box-shadow: 0 0 10px 1px rgb(52, 224, 36);
+  background-color: rgb(33, 197, 18);
+  box-shadow: 0 0 10px 1px rgb(52, 224, 36);
 }
